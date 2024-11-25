@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Commerce</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeQJb6lWf-8rrbZZ5fwaU0naiL1wobIRYAKg&s" class="logo" alt="logo">
+    <div id="navbar-animmenu" >
+        <ul class="show-dropdown main-navbar">
+           
+            <li>
+                <a href="login.html"><i class="far fa-calendar-alt"></i>Login </a>
+            </li>
+            <li >
+                <a href="index.html"><i class="far fa-clone"></i>Home</a>
+            </li>
+            <li class="dropdown">
+                <a href="animals.html"><i class="far fa-calendar-alt" ></i>Animals</a>
+                
+            </li>
+            <li>
+                <a href="cart.html"><i class="far fa-chart-bar"></i>Cart</a>
+            </li>
+            <li> <div class="search-container">
+                <i class="fas fa-search search-icon"></i>
+                <input type="text" class="search-input" placeholder="Search..." oninput="handleSearch(event)">
+              </div></li>
+           
+                </div></li>
+        </ul>
+    </div>
+  </header>
+ <div class="login-container">
+  <form class="login-form">
+      <h2>Login</h2>
+      <input type="text" name="username" placeholder="Username" required><br>
+      <input type="password" name="password" placeholder="Password" required><br>
+      <button type="submit">Login</button>
+  </form>
+</div>
+
+</body>
+</html>

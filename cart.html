@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeQJb6lWf-8rrbZZ5fwaU0naiL1wobIRYAKg&s" class="logo" alt="logo">
+        <div id="navbar-animmenu" >
+            <ul class="show-dropdown main-navbar">
+                <div class="hori-selector"><div class="left"></div><div class="right"></div></div>
+                <li class="active">
+                    <a href="javascript:void(0);"><i class="far fa-address-book"></i>Address </a>
+                </li>
+                <li >
+                    <a href="javascript:void(0);"><i class="far fa-clone"></i>Home</a>
+                </li>
+                <li class="dropdown">
+                    <a href="animals.html"><i class="far fa-calendar-alt" ></i>Animals</a>
+                    
+                </li>
+                <li>
+                    <a href="cart.html"><i class="far fa-chart-bar"></i>Cart</a>
+                </li></ul></div></header>
+        
+    
+    <h1>Your Cart</h1>
+        <div id="cartItemsList"></div>
+
+    <div>
+        <button class="checkout-btn" onclick="checkout()">Checkout</button>
+        <button class="cancel-btn" onclick="cancelCart()">Cancel All</button>    </div>
+</body>
+</html>
